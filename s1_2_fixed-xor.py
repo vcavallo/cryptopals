@@ -1,3 +1,5 @@
+#! /usr/local/bin/python
+
 import sys
 
 def xor_strings(string1, string2):

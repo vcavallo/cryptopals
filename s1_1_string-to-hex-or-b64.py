@@ -1,5 +1,12 @@
 #! /usr/bin/python
 
+# to be used as such:
+# $ echo "2347287f98ds7f" | string_to_hex -h
+# ^ for encoding into hex
+# or
+# $ echo "2347287f98ds7f" | string_to_hex -h64
+# ^ for encoding above hex into base64
+
 import sys
 import base64
 
